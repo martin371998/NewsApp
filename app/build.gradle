@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.newsapplication"
-        minSdk 24
+        minSdk 26
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -50,12 +50,13 @@ android {
 
 dependencies {
 
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     def ktx_core = "1.10.1"
     def appcompat = "1.6.1"
     def material = "1.9.0"
     def constraintLayout = "2.1.4"
-    def nav_version = "2.5.3"
-    def hilt = "2.45"
+    def nav_version = "2.6.0"
+    def hilt = "2.46.1"
     def retrofit2 = "2.9.0"
     def gson = "2.10.1"
     def lottie = "3.4.0"
