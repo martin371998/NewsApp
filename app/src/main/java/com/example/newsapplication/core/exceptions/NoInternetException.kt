@@ -1,4 +1,4 @@
-package com.example.newsapplication.core.extentions
+package com.example.newsapplication.core.exceptions
 
 import java.io.IOException
 

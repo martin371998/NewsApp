@@ -11,7 +11,7 @@
         android:id="@+id/ivSplash"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
         tools:layout_editor_absoluteX="146dp"
         tools:layout_editor_absoluteY="323dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,7 @@
 package com.example.newsapplication.news.domain
 
 import com.example.newsapplication.core.database.NewsDatabase
-import com.example.newsapplication.core.extentions.NoInternetException
+import com.example.newsapplication.core.exceptions.NoInternetException
 import com.example.newsapplication.core.extentions.safe
 import com.example.newsapplication.core.models.APIResponse
 import com.example.newsapplication.core.models.Status

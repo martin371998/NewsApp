@@ -29,7 +29,6 @@ class NewsFragment : Fragment() {
 
     private var _binding: FragmentNewsBinding? = null
     private val binding get() = _binding!!
-
     private val newsViewModel by viewModels<NewsViewModel>()
     private val sharedViewModel: GlobalViewModel by activityViewModels()
 
@@ -38,8 +37,7 @@ class NewsFragment : Fragment() {
     lateinit var newsAdapter: NewsAdapter
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         _binding = FragmentNewsBinding.inflate(layoutInflater, container, false)
         return binding.root

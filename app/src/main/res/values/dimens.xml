@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="fab_margin">16dp</dimen>
 
@@ -26,19 +27,31 @@
     <dimen name="fragment.news.additional.margin.16">16dp</dimen>
     <dimen name="fragment.news.additional.margin.30">30dp</dimen>
     <dimen name="fragment.news.additional.elevation">8dp</dimen>
+    <dimen name="iv_additional_data_width_150">150dp</dimen>
+    <dimen name="iv_additional_data_height_150">150dp</dimen>
+
 
     <!--  news  /-->
-
     <dimen name="fragment.news.fap.margin">25dp</dimen>
     <dimen name="fragment.news.fap.width">50dp</dimen>
     <dimen name="fragment.news.fap.height">50dp</dimen>
+    <dimen name="fragment.news.margin.vertical.20">20dp</dimen>
+    <dimen name="fragment.news.margin.horizontal.16">16dp</dimen>
 
     <!-- fragment_search /-->
     <dimen name="fragment.search.margin.8">8dp</dimen>
     <dimen name="fragment.search.margin.50">50dp</dimen>
     <dimen name="fragment.search.margin.16">16dp</dimen>
+    <dimen name="fragment.search.margin.25">25dp</dimen>
+    <dimen name="fragment.search.fab.size.50">50dp</dimen>
+    <dimen name="fragment.search.width.50">50dp</dimen>
+    <dimen name="fragment.search.height.50">50dp</dimen>
+
+
 
     <!--  layout_header  /-->
     <dimen name="header.margin.8">8dp</dimen>
     <dimen name="header.margin.16">16dp</dimen>
+    <dimen name="header.height.50">50dp</dimen>
+
 </resources>

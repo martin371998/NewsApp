@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/fragment.search.margin.16"
         android:layout_marginTop="@dimen/fragment.search.margin.50"
-        android:hint="type">
+        android:hint="@string/default_hint_type">
 
         <com.google.android.material.textfield.MaterialAutoCompleteTextView
             android:id="@+id/actType"
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/fragment.search.margin.16"
-        android:hint="Search">
+        android:hint="@string/default_hint_search">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etSearch"
@@ -43,6 +43,6 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/fragment.search.margin.16"
         android:layout_marginTop="@dimen/fragment.search.margin.8"
-        android:text="Search" />
+        android:text="@string/default_hint_search" />
 
 </LinearLayout>

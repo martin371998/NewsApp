@@ -36,9 +36,9 @@
         <ImageView
             android:id="@+id/tvFavorite"
             loadImage="@{news.urlToImage}"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="8dp"
+            android:layout_width="@dimen/iv_additional_data_width_150"
+            android:layout_height="@dimen/iv_additional_data_height_150"
+            android:layout_marginTop="@dimen/fragment.news.additional.margin.8"
             android:background="?attr/selectableItemBackground"
             android:src="@drawable/ic_star" />
 

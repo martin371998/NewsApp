@@ -9,7 +9,7 @@
         android:id="@+id/newsFragment"
         android:name="com.example.newsapplication.news.presentation.ui.fragment.NewsFragment"
         android:label="fragment_news"
-        tools:layout="@layout/fragment_news" >
+        tools:layout="@layout/fragment_news">
         <action
             android:id="@+id/action_newsFragment_to_newsAdditionalDataFragment"
             app:destination="@id/newsAdditionalDataFragment" />
@@ -20,7 +20,7 @@
     <dialog
         android:id="@+id/newsAdditionalDataFragment"
         android:name="com.example.newsapplication.news.presentation.ui.fragment.NewsAdditionalDataFragment"
-        android:label="NewsAdditionalDataFragment" >
+        android:label="NewsAdditionalDataFragment">
         <argument
             android:name="news"
             app:argType="com.example.newsapplication.news.data.model.NewsModel" />

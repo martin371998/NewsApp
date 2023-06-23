@@ -61,7 +61,6 @@ dependencies {
     def gson = "2.10.1"
     def lottie = "3.4.0"
     def glide = "4.14.2"
-    def palette = "1.0.0"
     def splashScreen = "1.0.1"
     def paging = "3.1.1"
     def crypto = "1.1.0-alpha06"

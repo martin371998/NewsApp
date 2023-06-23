@@ -1,7 +1,7 @@
 package com.example.newsapplication.core.interceptors
 
 import android.content.Context
-import com.example.newsapplication.core.extentions.NoInternetException
+import com.example.newsapplication.core.exceptions.NoInternetException
 import com.example.newsapplication.core.extentions.isOnline
 import okhttp3.Interceptor
 import okhttp3.Request

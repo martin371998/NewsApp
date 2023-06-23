@@ -1,5 +1,6 @@
 package com.example.newsapplication.core.extentions
 
+import com.example.newsapplication.core.exceptions.APIException
 import com.example.newsapplication.core.models.ErrorModel
 import com.google.gson.Gson
 import retrofit2.Response

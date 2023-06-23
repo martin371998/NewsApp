@@ -46,5 +46,4 @@ class NewsAdapter @Inject constructor() :
             binding.root.setOnClickListener { onClick?.invoke(newsModel) }
         }
     }
-
 }

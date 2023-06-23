@@ -21,8 +21,7 @@ class NewsAdditionalDataFragment : BottomSheetDialogFragment() {
     private val navArgs: NewsAdditionalDataFragmentArgs by navArgs()
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         _binding = FragmentNewsAdditionalDataBinding.inflate(inflater, container, false)
         return binding.root
