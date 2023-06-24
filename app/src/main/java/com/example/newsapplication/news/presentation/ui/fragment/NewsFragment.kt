@@ -10,7 +10,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.example.newsapplication.GlobalViewModel
+import com.example.newsapplication.main.presentation.viewmodel.GlobalViewModel
 import com.example.newsapplication.core.extentions.gone
 import com.example.newsapplication.core.extentions.safe
 import com.example.newsapplication.core.extentions.shouldShowFap

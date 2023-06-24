@@ -1,7 +1,8 @@
-package com.example.newsapplication
+package com.example.newsapplication.main.presentation.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.newsapplication.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

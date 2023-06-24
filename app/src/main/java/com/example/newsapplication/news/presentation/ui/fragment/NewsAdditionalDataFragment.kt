@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.example.newsapplication.databinding.FragmentNewsAdditionalDataBinding
 import com.example.newsapplication.news.data.model.NewsModel
+import com.example.newsapplication.utils.DateUtils
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -35,6 +36,7 @@ class NewsAdditionalDataFragment : BottomSheetDialogFragment() {
     private fun initViews() {
         newsModel = navArgs.news
         binding.news = newsModel
+        binding.tvPublishedAt.text = DateUtils.formatDate(newsModel.publishedAt)
     }
 
     override fun onDestroyView() {

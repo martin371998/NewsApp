@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.fragment.app.activityViewModels
-import com.example.newsapplication.GlobalViewModel
+import com.example.newsapplication.main.presentation.viewmodel.GlobalViewModel
 import com.example.newsapplication.core.extentions.safe
 import com.example.newsapplication.databinding.FragmentSearchBinding
 import com.example.newsapplication.news.data.model.SearchModel

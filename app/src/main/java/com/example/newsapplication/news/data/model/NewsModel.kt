@@ -4,13 +4,13 @@ import android.os.Parcelable
 import androidx.annotation.Keep
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.newsapplication.news.data.helper.DataConsts.TABLE_ARTICLES
+import com.example.newsapplication.news.data.helper.DataConsts.TABLE_NEWS
 import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize
 
 @Keep
 @Parcelize
-@Entity(TABLE_ARTICLES)
+@Entity(TABLE_NEWS)
 data class NewsModel(
     @PrimaryKey(autoGenerate = true)
     val id: Int,
